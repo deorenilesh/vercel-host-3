@@ -14,7 +14,12 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>
           <a href="https://nextjs.org">Portfolio of Nilesh</a>
-        </h1>
+         </h1>
+
+        <div>
+        <label htmlFor="l">Enter your name here</label>
+          <input type="text" name="input" id="input"/>
+        </div>
 
         <p className={styles.description}>
           Get started by editing{' '}
